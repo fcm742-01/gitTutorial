@@ -95,3 +95,66 @@ At the prompt type:
 
 Now you have your own copy of the repo both on your machine and in your github account.
 You can look at any of the files
+* Master vs. branch
+You actually have a copy of the master on your machine.  When you add something
+for the first time, you should not add to the master you should make changes to 
+your own branch. Usually the branch name is the topic.  In this case use your
+first name. Type:
+
+=git branch <first_name>=
+
+We can see all of the branches by typing:
+
+=git branch=
+
+The star means that we are still on the master branch.
+
+* switch branches
+
+To switch branches type:
+
+=git checkout <first_name>=
+
+* create a directory
+
+Create a directory with your first and last name from the command line:
+
+=mkdir <firstName_LastName>=
+
+* Copy your homework into that directory
+
+You can use the command line or a gui to copy your assignment into the directory you
+just created.
+
+* Add your homework to your branch
+
+To add your homework to your branch.  You will do this by adding all files in the directory
+to your branch by typing:
+
+=git add .=
+
+* Commit your local changes
+
+You should save or commit your changes with a message.  Type the following:
+
+=git commit -m "added my homework."=
+
+* Push your branch back up to github
+
+Right now your homework is on your branch on your local computer.  We want that to 
+be recorded as well on your github account.
+
+=git push origin <first_name> =
+
+Don't type the less than and greater than signs.  Just type your
+branch name.  Git will copy your branch (<first_name>) to you github
+account (origin).
+
+* Github will ask you if you want to create a pull request
+
+The pull request lets me know that you have added a branch you
+want me to add to the master.  Push the button and tell me you 
+added the homework.  
+
+* Thanks
+
