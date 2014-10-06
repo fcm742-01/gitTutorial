@@ -10,7 +10,7 @@
 <li><a href="#sec-3-2">3.2. Windows</a></li>
 </ul>
 </li>
-<li><a href="#sec-4">4. configure git on your local machine [Don't skip]</a>
+<li><a href="#sec-4">4. Configure git on your local machine [Don't skip]</a>
 <ul>
 <li><a href="#sec-4-1">4.1. On your machine open a terminal</a>
 <ul>
@@ -20,7 +20,14 @@
 </li>
 </ul>
 </li>
-<li><a href="#sec-5">5. clone the repository from your github account to your local machine</a></li>
+<li><a href="#sec-5">5. Decide where to place your files</a>
+<ul>
+<li><a href="#sec-5-1">5.1. Mac OS X</a></li>
+<li><a href="#sec-5-2">5.2. Windows</a></li>
+</ul>
+</li>
+<li><a href="#sec-6">6. Set global git variables</a></li>
+<li><a href="#sec-7">7. Clone the repository from your github account to your local machine</a></li>
 </ul>
 </div>
 </div>
@@ -69,7 +76,7 @@ You just need to go this link:
 
 Double click on the downloaded file and install in the usual way.
 
-# configure git on your local machine [Don't skip]<a id="sec-4"></a>
+# Configure git on your local machine [Don't skip]<a id="sec-4"></a>
 
 ## On your machine open a terminal<a id="sec-4-1"></a>
 
@@ -97,4 +104,37 @@ Left click the terminal and you are there.
     
     <http://pcsupport.about.com/od/windows7/a/command-prompt-windows-7.htm>
 
-# clone the repository from your github account to your local machine<a id="sec-5"></a>
+# Decide where to place your files<a id="sec-5"></a>
+
+## Mac OS X<a id="sec-5-1"></a>
+
+You documents are in /Users/<your name>/Documents.  In the terminal type:
+
+`cd Documents`
+
+## Windows<a id="sec-5-2"></a>
+
+Your Documents are in C:\Users\\<your name>\Documents.  In the terminal type:
+
+`cd Documents`
+
+# Set global git variables<a id="sec-6"></a>
+
+Tell Git your name so your commits will be properly labeled. Type everything after the $ here:
+
+=$ git config &#x2013;global user.name "YOUR NAME"=
+
+Tell Git the email address that will be associated with your Git
+commits. The email you specify should be the same one you used to sign
+up for GitHub.
+
+=git config &#x2013;global user.email "YOUR EMAIL ADDRESS"=
+
+# Clone the repository from your github account to your local machine<a id="sec-7"></a>
+
+At the prompt type:
+
+`git clone git@github.com:cuny-ml-f2014/homework1.git`
+
+Now you have your own copy of the repo both on your machine and in your github account.
+You can look at any of the files
