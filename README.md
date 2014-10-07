@@ -34,14 +34,7 @@
 <li><a href="#sec-11">11. Copy your homework into that directory</a></li>
 <li><a href="#sec-12">12. Add your homework to your branch</a></li>
 <li><a href="#sec-13">13. Commit your local changes</a></li>
-<li><a href="#sec-14">14. Push your branch back up to github</a></li>
-<li><a href="#sec-15">15. Github will ask you if you want to create a pull request</a></li>
-<li><a href="#sec-16">16. But now you want to see everyone's homework</a>
-<ul>
-<li><a href="#sec-16-1">16.1. Get the changes</a></li>
-</ul>
-</li>
-<li><a href="#sec-17">17. Thanks</a></li>
+<li><a href="#sec-14">14. Thanks</a></li>
 </ul>
 </div>
 </div>
@@ -149,13 +142,13 @@ Your Documents are in C:\Users\\<your name>\Documents.  In the terminal type:
 Tell Git your name so your commits will be properly labeled. Type
 everything after the $ here:
 
-=git config &#x2013;global user.name \\"Your Name\\"=
+`git config --global user.name "Your Name"`
 
 Tell Git the email address that will be associated with your Git
 commits. The email you specify should be the same one you used to sign
 up for GitHub.
 
-=git config &#x2013;global user.email \\"YOUR EMAIL ADDRESS\\"=
+`git config --global user.email "YOUR EMAIL ADDRESS"`
 
 # Clone the repository from your github account to your local machine<a id="sec-7"></a>
 
@@ -216,50 +209,13 @@ to your branch by typing:
 
 You should save or commit your changes with a message.  Type the following:
 
-=git commit -m \\"added my homework.\\"=
+`git commit -m "added my homework."`
 
 or type:
 
-=git commit -m \\"added my homework and team.\\"=
-
-# Push your branch back up to github<a id="sec-14"></a>
-
-Right now your homework is on your branch on your local computer.  We want that to 
-be recorded as well on your github account.
-
-`git push origin <first_name>`
-
-Don't type the less than and greater than signs.  Just type your
-branch name.  Git will copy your branch (<first<sub>name</sub>>) to you github
-account (origin).
-
-# Github will ask you if you want to create a pull request<a id="sec-15"></a>
-
-Check your forked repo on git. Git will ask you if you want to create
-a pull request. The pull request lets me know that you have added a
-branch you want me to add to the master.  Push the button and tell me
-you added the homework.
-
-# But now you want to see everyone's homework<a id="sec-16"></a>
-
-If you want to see everyone's homework, you need to pull all of the changes that I have
-incorporated in the master.  This is called syncing with an upstream repository.
-
-## Get the changes<a id="sec-16-1"></a>
-
-To get the changes type:
-
-`git fetch upstream`
-
-Then checkout your local master by typing:
-
-`git checkout master`
-
-If you have not changed any files since your last commit. The next command should work:
-
-`git merge upstream/master`
+~git commit -m "added my homework and team.
 
 To update your copy on github you have to push your changes.  This only did the merge on the 
 local side.
 
-# Thanks<a id="sec-17"></a>
+# Thanks<a id="sec-14"></a>
