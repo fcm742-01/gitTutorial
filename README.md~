@@ -154,7 +154,11 @@ up for GitHub.
 
 Now go back to your browser and open up the repo that you forked.  On the right side of 
 the page near the top, there is a box under settings.  In that box is the URL of your fork.
-Copy it and clone it by typing:
+Here is a picture.
+
+![img](images/url.png)
+
+Now that you know what you are looking for.  Copy it and clone it by typing:
 
 `git clone git@github.com:<your_github_username>/homework1.git`
 
@@ -166,11 +170,7 @@ You can look at any of the files.
 You actually have a copy of the master on your machine.  When you add something
 for the first time, you should not add to the master you should make changes to 
 your own branch. Usually the branch name is the topic.  In this case use your
-first name. Here is a picture.
-
-![img](images/url.png)
-
-Now that you know what you are looking for; Type:
+first name.  Type:
 
 `git branch <first_name>`
 

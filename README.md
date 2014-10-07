@@ -34,7 +34,8 @@
 <li><a href="#sec-11">11. Copy your homework into that directory</a></li>
 <li><a href="#sec-12">12. Add your homework to your branch</a></li>
 <li><a href="#sec-13">13. Commit your local changes</a></li>
-<li><a href="#sec-14">14. Thanks</a></li>
+<li><a href="#sec-14">14. See everyone's changes</a></li>
+<li><a href="#sec-15">15. Thanks</a></li>
 </ul>
 </div>
 </div>
@@ -218,4 +219,24 @@ or type:
 To update your copy on github you have to push your changes.  This only did the merge on the 
 local side.
 
-# Thanks<a id="sec-14"></a>
+# See everyone's changes<a id="sec-14"></a>
+
+To see everyone's accepted changes to the master, you have to pull the upstream master. This 
+requires a *fetch* command.  Make sure that you have commited your changes.  Type:
+
+`git fetch upstream`
+
+you have now pulled the changes from my branch to your local machine. The next step is to 
+merge it into your master branch.
+
+`git checkout master`
+
+and to incorporate the changes on your local master, type:
+
+`git merge upstream/master`
+
+You will want to save those to your github account as well.  So to finish, type:
+
+`git push origin master`
+
+# Thanks<a id="sec-15"></a>
