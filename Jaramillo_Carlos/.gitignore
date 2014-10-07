@@ -1,0 +1,25 @@
+# Python stuff
+*.pyc
+__init__.py
+__init__.pyc
+.pydevproject
+*Config.py
+code.py
+
+# Java stuff
+.classpath
+
+# Some usual extensions and folders
+.DS_Store
+*~
+*.bak
+*.suo
+*.ncb
+*.user
+*.tmp
+.project
+.classpath
+.settings
+bin
+
+
