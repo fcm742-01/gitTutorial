@@ -213,7 +213,7 @@ You should save or commit your changes with a message.  Type the following:
 
 or type:
 
-~git commit -m "added my homework and team.
+`git commit -m "added my homework and team."`
 
 To update your copy on github you have to push your changes.  This only did the merge on the 
 local side.
