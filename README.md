@@ -29,8 +29,8 @@
 <li><a href="#sec-6">6. Set global git variables</a></li>
 <li><a href="#sec-7">7. Clone the repository from your github account to your local machine</a></li>
 <li><a href="#sec-8">8. Master vs. branch</a></li>
-<li><a href="#sec-9">9. switch branches</a></li>
-<li><a href="#sec-10">10. create a directory</a></li>
+<li><a href="#sec-9">9. Switch branches</a></li>
+<li><a href="#sec-10">10. Create a directory</a></li>
 <li><a href="#sec-11">11. Copy your homework into that directory</a></li>
 <li><a href="#sec-12">12. Add your homework to your branch</a></li>
 <li><a href="#sec-13">13. Commit your local changes</a></li>
@@ -181,13 +181,13 @@ We can see all of the branches by typing:
 
 The star means that we are still on the master branch.
 
-# switch branches<a id="sec-9"></a>
+# Switch branches<a id="sec-9"></a>
 
 To switch branches type:
 
 `git checkout <first_name>`
 
-# create a directory<a id="sec-10"></a>
+# Create a directory<a id="sec-10"></a>
 
 Create a directory with your first and last name from the command line:
 
