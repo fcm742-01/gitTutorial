@@ -128,13 +128,13 @@ We can see all of the branches by typing:
 
 The star means that we are still on the master branch.
 
-* switch branches
+* Switch branches
 
 To switch branches type:
 
 ~git checkout <first_name>~
 
-* create a directory
+* Create a directory
 
 Create a directory with your first and last name from the command line:
 

@@ -166,7 +166,19 @@ or type:
 To update your copy on github you have to push your changes.  This only did the merge on the 
 local side.
 * See everyone's changes
+** Configure an upstream master
+Git does not automatically know where you want to pull from.
+To see where git is pulling from, type:
 
+~git remote -v~
+
+The "-v" is a common command line flag for verbose.  Because you 
+forked both the (fetch) where you pull from and where you push to
+(push) are the same. Now specify a new upstream repository that will
+be synced by the fork.
+
+~git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITOR
+** Sync the fork
 To see everyone's accepted changes to the master, you have to pull the upstream master. This 
 requires a /fetch/ command.  Make sure that you have commited your changes.  Type:
 

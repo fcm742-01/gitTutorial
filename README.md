@@ -34,7 +34,12 @@
 <li><a href="#sec-11">11. Copy your homework into that directory</a></li>
 <li><a href="#sec-12">12. Add your homework to your branch</a></li>
 <li><a href="#sec-13">13. Commit your local changes</a></li>
-<li><a href="#sec-14">14. See everyone's changes</a></li>
+<li><a href="#sec-14">14. See everyone's changes</a>
+<ul>
+<li><a href="#sec-14-1">14.1. Configure an upstream master</a></li>
+<li><a href="#sec-14-2">14.2. Sync the fork</a></li>
+</ul>
+</li>
 <li><a href="#sec-15">15. Thanks</a></li>
 </ul>
 </div>
@@ -220,6 +225,22 @@ To update your copy on github you have to push your changes.  This only did the 
 local side.
 
 # See everyone's changes<a id="sec-14"></a>
+
+## Configure an upstream master<a id="sec-14-1"></a>
+
+Git does not automatically know where you want to pull from.
+To see where git is pulling from, type:
+
+`git remote -v`
+
+The "-v" is a common command line flag for verbose.  Because you 
+forked both the (fetch) where you pull from and where you push to
+(push) are the same. Now specify a new upstream repository that will
+be synced by the fork.
+
+`git remote add upstream git@github.com:cuny-ml-f2014/homework1.git`
+
+## Sync the fork<a id="sec-14-2"></a>
 
 To see everyone's accepted changes to the master, you have to pull the upstream master. This 
 requires a *fetch* command.  Make sure that you have commited your changes.  Type:
