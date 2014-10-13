@@ -238,7 +238,7 @@ forked both the (fetch) where you pull from and where you push to
 (push) are the same. Now specify a new upstream repository that will
 be synced by the fork.
 
-`git remote add upstream git@github.com:cuny-ml-f2014/homework1.git`
+`git remote add upstream git://github.com/cuny-ml-f2014/homework1.git`
 
 ## Sync the fork<a id="sec-14-2"></a>
 
