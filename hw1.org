@@ -1,0 +1,18 @@
+| name                        | email                       | team             | hwPresent |
+|-----------------------------+-----------------------------+------------------+-----------|
+| Eric Dagobert               | Eric@pinepark.us            |                  |           |
+| Markus Gehrsitz             | MarkusGehrsitz@gmail.com    |                  |           |
+| Deny Katerenchuck           | dKaterenchuck@gc.cuny.edu   |                  |           |
+| Paloma Lopez de Mesa Moyano | plopezdemesa@gc.cuny.edu    |                  |           |
+| Alexander Sverdelov         | alex@theparticle.com        |                  |           |
+| Arindam Khaled              | ArindamKhaled@gmail.com     |                  |           |
+| Ze Ye                       | yeze16159@gmail.com         |                  |           |
+| Carlos Jaramillo            | CJaramillo@gc.cuny.edu      | Carlos_Jaramillo |           |
+| Juan Pablo Munoz            | jpablomch@gmail.com         | Carlos_Jaramillo |           |
+| Morgan Williams             | morgan.williamsjr@gmail.com | Carlos_Jaramillo |           |
+| Alev Yildrimi               | ayildrim@gc.cuny.edu        | Carlos_Jaramillo |           |
+| Evan Misshula               | EvanMisshula@gmail.com      | Evan_Misshula    | x         |
+| Min Ma                      | minma.cs.bupt@gmail.com     | Min_ma           |           |
+| Xianian Fan                 | xnf1203@gmail.com           | xiuyan_ni        |           |
+| Xiuyan Ni                   | nixiuyan0823@gmail.com      | xiuyan_ni        |           |
+
