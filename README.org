@@ -10,13 +10,12 @@ a fork of this repository and create a directory whose name is
 
 ~firstName_lastName~
 
-where your last name is separated from your first
-with an underscore "_".  Once you have done this copy the tab
-separated values file (tsv) with your data to the file and send me a
-pull request from your master to add it to the repo. If you have a
-team that consists of more than the person who has uploaded the file,
-please include a second file called team.csv with the names of your
-team.
+where your last name is separated from your first with an underscore
+"_".  Once you have done this copy a picture of your face into the
+directory.  Next you will send me a pull request from your master to
+add it to the repo. If you have a team that consists of more than the
+person who has uploaded the file, please send me a picture of everyone
+on your team. Name the pictures with your individual names.
 
 Read on for details.
 
