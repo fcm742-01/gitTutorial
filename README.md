@@ -131,7 +131,11 @@ search bar type terminal.  Left click the terminal and you are there.
 
 ## Mac OS X<a id="sec-5-1"></a>
 
-You documents are in /Users/<your name>/Documents.  In the terminal type:
+Your documents are in: 
+
+`/Users/<your name>/Documents`  
+
+In the terminal type:
 
 `cd Documents`
 

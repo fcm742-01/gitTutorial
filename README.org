@@ -75,7 +75,11 @@ http://pcsupport.about.com/od/windows7/a/command-prompt-windows-7.htm
 * Decide where to place your files
 ** Mac OS X
 
-You documents are in /Users/<your name>/Documents.  In the terminal type:
+Your documents are in: 
+
+~/Users/<your name>/Documents~  
+
+In the terminal type:
 
 ~cd Documents~
 
