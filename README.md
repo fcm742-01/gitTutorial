@@ -264,6 +264,6 @@ and to incorporate the changes on your local master, type:
 
 You will want to save those to your github account as well.  So to finish, type:
 
-`git push origin master`
+`git push origin <first_name>`
 
 # Thanks<a id="sec-15"></a>
