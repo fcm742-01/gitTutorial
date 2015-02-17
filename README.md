@@ -277,7 +277,10 @@ The star means that we are still on the master branch.
 
 # Switch branches<a id="sec-10"></a>
 
-To switch branches type:
+Now we are going to begin constructing the changes we want
+incorporated into the main project. In the last section we made a
+branch now we are going to start to change it.  To switch to your branch,
+type:
 
 `git checkout <first_name>`
 
