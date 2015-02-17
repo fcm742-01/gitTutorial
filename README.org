@@ -153,7 +153,16 @@ git clone https@github.com:<your_github_username>/homework1.git
 #+END_SRC
 
 Now you have your own copy of the repo both on your machine and in your github account.
-In an text editor, you can look at any of the files. 
+If you want to work with the files in the ~homework1~ directory, you should change into 
+that directory. To do this you should type:
+
+#+BEGIN_SRC sh :exports code
+cd homework1
+#+END_SRC
+
+In an text editor, you can look at any of the files. You can also list the files by 
+typing either ~ls~ or ~dir~ depending on your operating system.
+
 * Master vs. branch
 You actually have a copy of the master on your machine.  When you add something
 for the first time, you should not add to the master you should make changes to 
@@ -178,6 +187,14 @@ type:
 
 * Create a directory
 
+If you listed the files in the homework1 directory, you should see
+that there is a directory called students. You should change
+directories into it by typing:
+
+#+BEGIN_SRC sh :exports code
+cd students
+#+END_SRC
+
 Create a directory with your first and last name from the command line:
 
 ~mkdir <firstName_LastName>~
@@ -189,10 +206,18 @@ just created.
 
 * Add your homework to your branch
 
-To add your homework to your branch.  You will do this by adding all files in the directory
-to your branch by typing:
+Make sure your image file is called your ~firstName_lastName.jpg~ or
+~firstName_lastName.png~.  For example, my photo would be
+~Evan_Misshula.jpg~.
 
-~git add .~
+Next add your homework to your branch.  You will do
+this by adding your image file to your branch by typing:
+
+#+BEGIN_SRC sh :exports code
+git add firstName_lastName.jpg
+#+END_SRC
+
+
 
 * Commit your local changes
 
