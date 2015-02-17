@@ -75,7 +75,26 @@ larger reference.
 
 http://pcsupport.about.com/od/windows7/a/command-prompt-windows-7.htm
 
-* Decide where to place your files
+* Command line tutorial
+The command line is the primary way to interact with your operating system.  We are only going
+to use a few commands but we have to use different commands depending whether you are running
+windows or mac.  Mac and Linux systems have mostly the same commands since Mac OS X is built on top
+of Berkley Software Distribution Unix.  Linux and Mac are sometimes called *nix systemes. Windows
+NT (the forerunner of Windows 7 and Windows 8) was built by the designers of Digital Equipment Corporation
+(DEC) Vax system.
+
+Here are the commmands we will use:
+
+| *nix | windows   | puropse                                   |
+|------+-----------+-------------------------------------------|
+| pwd  | echo %cd% | tell us what directory we are in          |
+| ls   | dir       | list the files in the directory we are in |
+| cp   | copy      | copy files from one place to another      |
+| cd   | cd        | change directory                          |
+| .    | .         | means here                                |
+| ..   | ..        | up one directory                          | 
+
+* The filesystem  
 ** Mac OS X
 
 Your documents are in: 
