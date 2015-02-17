@@ -233,13 +233,13 @@ Your Documents are in C:\Users\\<your name>\Documents.  In the terminal type:
 Tell Git your name so your commits will be properly labeled. Type
 everything after the $ here:
 
-~git config &#x2013;global user.name "Your Name"~
+    git config --global user.name "Your Name"
 
 Tell Git the email address that will be associated with your Git
 commits. The email you specify should be the same one you used to sign
 up for GitHub.
 
-~git config &#x2013;global user.email "YOUR EMAIL ADDRESS"~
+    git config --global user.email "YOUR EMAIL ADDRESS"
 
 # Clone the repository from your github account to your local machine<a id="sec-8"></a>
 
