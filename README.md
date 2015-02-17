@@ -255,7 +255,7 @@ up ssh keys which are worth a whole tutorial to themselves.  Now that
 you know what you are looking for.  Copy it to the clipboard by
 left-clicking the button. You clone it by typing:
 
-    "code"body
+    git clone https@github.com:<your_github_username>/homework1.git
 
 Now you have your own copy of the repo both on your machine and in your github account.
 In an text editor, you can look at any of the files. 
