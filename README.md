@@ -20,27 +20,28 @@
 </li>
 </ul>
 </li>
-<li><a href="#sec-5">5. Decide where to place your files</a>
+<li><a href="#sec-5">5. Command line tutorial</a></li>
+<li><a href="#sec-6">6. The filesystem</a>
 <ul>
-<li><a href="#sec-5-1">5.1. Mac OS X</a></li>
-<li><a href="#sec-5-2">5.2. Windows</a></li>
+<li><a href="#sec-6-1">6.1. Mac OS X</a></li>
+<li><a href="#sec-6-2">6.2. Windows</a></li>
 </ul>
 </li>
-<li><a href="#sec-6">6. Set global git variables</a></li>
-<li><a href="#sec-7">7. Clone the repository from your github account to your local machine</a></li>
-<li><a href="#sec-8">8. Master vs. branch</a></li>
-<li><a href="#sec-9">9. Switch branches</a></li>
-<li><a href="#sec-10">10. Create a directory</a></li>
-<li><a href="#sec-11">11. Copy your homework into that directory</a></li>
-<li><a href="#sec-12">12. Add your homework to your branch</a></li>
-<li><a href="#sec-13">13. Commit your local changes</a></li>
-<li><a href="#sec-14">14. See everyone's changes</a>
+<li><a href="#sec-7">7. Set global git variables</a></li>
+<li><a href="#sec-8">8. Clone the repository from your github account to your local machine</a></li>
+<li><a href="#sec-9">9. Master vs. branch</a></li>
+<li><a href="#sec-10">10. Switch branches</a></li>
+<li><a href="#sec-11">11. Create a directory</a></li>
+<li><a href="#sec-12">12. Copy your homework into that directory</a></li>
+<li><a href="#sec-13">13. Add your homework to your branch</a></li>
+<li><a href="#sec-14">14. Commit your local changes</a></li>
+<li><a href="#sec-15">15. See everyone's changes</a>
 <ul>
-<li><a href="#sec-14-1">14.1. Configure an upstream master</a></li>
-<li><a href="#sec-14-2">14.2. Sync the fork</a></li>
+<li><a href="#sec-15-1">15.1. Configure an upstream master</a></li>
+<li><a href="#sec-15-2">15.2. Sync the fork</a></li>
 </ul>
 </li>
-<li><a href="#sec-15">15. Thanks</a></li>
+<li><a href="#sec-16">16. Thanks</a></li>
 </ul>
 </div>
 </div>
@@ -130,9 +131,82 @@ search bar type terminal.  Left click the terminal and you are there.
     
     <http://pcsupport.about.com/od/windows7/a/command-prompt-windows-7.htm>
 
-# Decide where to place your files<a id="sec-5"></a>
+# Command line tutorial<a id="sec-5"></a>
 
-## Mac OS X<a id="sec-5-1"></a>
+The command line is the primary way to interact with your operating system.  We are only going
+to use a few commands but we have to use different commands depending whether you are running
+windows or mac.  Mac and Linux systems have mostly the same commands since Mac OS X is built on top
+of Berkley Software Distribution Unix.  Linux and Mac are sometimes called \*nix systemes. Windows
+NT (the forerunner of Windows 7 and Windows 8) was built by the designers of Digital Equipment Corporation
+(DEC) Vax system.
+
+Here are the commmands we will use:
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">\*nix</th>
+<th scope="col" class="left">windows</th>
+<th scope="col" class="left">puropse</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="left">pwd</td>
+<td class="left">echo %cd%</td>
+<td class="left">tell us what directory we are in</td>
+</tr>
+
+
+<tr>
+<td class="left">ls</td>
+<td class="left">dir</td>
+<td class="left">list the files in the directory we are in</td>
+</tr>
+
+
+<tr>
+<td class="left">cp</td>
+<td class="left">copy</td>
+<td class="left">copy files from one place to another</td>
+</tr>
+
+
+<tr>
+<td class="left">cd</td>
+<td class="left">cd</td>
+<td class="left">change directory</td>
+</tr>
+
+
+<tr>
+<td class="left">.</td>
+<td class="left">.</td>
+<td class="left">means here</td>
+</tr>
+
+
+<tr>
+<td class="left">..</td>
+<td class="left">..</td>
+<td class="left">up one directory</td>
+</tr>
+</tbody>
+</table>
+
+# The filesystem<a id="sec-6"></a>
+
+## Mac OS X<a id="sec-6-1"></a>
 
 Your documents are in: 
 
@@ -148,13 +222,13 @@ To check where you are type:
 
 This returns the present working directory.
 
-## Windows<a id="sec-5-2"></a>
+## Windows<a id="sec-6-2"></a>
 
 Your Documents are in C:\Users\\<your name>\Documents.  In the terminal type:
 
 `cd Documents`
 
-# Set global git variables<a id="sec-6"></a>
+# Set global git variables<a id="sec-7"></a>
 
 Tell Git your name so your commits will be properly labeled. Type
 everything after the $ here:
@@ -167,7 +241,7 @@ up for GitHub.
 
 ~git config &#x2013;global user.email "YOUR EMAIL ADDRESS"~
 
-# Clone the repository from your github account to your local machine<a id="sec-7"></a>
+# Clone the repository from your github account to your local machine<a id="sec-8"></a>
 
 Now go back to your browser and open up the repo that you forked.  On the right side of 
 the page near the top, there is a box under settings.  In that box is the URL of your fork.
@@ -182,7 +256,7 @@ Now that you know what you are looking for.  Copy it and clone it by typing:
 Now you have your own copy of the repo both on your machine and in your github account.
 You can look at any of the files. 
 
-# Master vs. branch<a id="sec-8"></a>
+# Master vs. branch<a id="sec-9"></a>
 
 You actually have a copy of the master on your machine.  When you add something
 for the first time, you should not add to the master you should make changes to 
@@ -197,31 +271,31 @@ We can see all of the branches by typing:
 
 The star means that we are still on the master branch.
 
-# Switch branches<a id="sec-9"></a>
+# Switch branches<a id="sec-10"></a>
 
 To switch branches type:
 
 `git checkout <first_name>`
 
-# Create a directory<a id="sec-10"></a>
+# Create a directory<a id="sec-11"></a>
 
 Create a directory with your first and last name from the command line:
 
 `mkdir <firstName_LastName>`
 
-# Copy your homework into that directory<a id="sec-11"></a>
+# Copy your homework into that directory<a id="sec-12"></a>
 
 You can use the command line or a gui to copy your picture into the directory you
 just created. 
 
-# Add your homework to your branch<a id="sec-12"></a>
+# Add your homework to your branch<a id="sec-13"></a>
 
 To add your homework to your branch.  You will do this by adding all files in the directory
 to your branch by typing:
 
 `git add .`
 
-# Commit your local changes<a id="sec-13"></a>
+# Commit your local changes<a id="sec-14"></a>
 
 You should save or commit your changes with a message.  Type the following:
 
@@ -234,9 +308,9 @@ or type:
 To update your copy on github you have to push your changes.  This
 only did the merge on the local side.
 
-# See everyone's changes<a id="sec-14"></a>
+# See everyone's changes<a id="sec-15"></a>
 
-## Configure an upstream master<a id="sec-14-1"></a>
+## Configure an upstream master<a id="sec-15-1"></a>
 
 Git does not automatically know where you want to pull from.
 To see where git is pulling from, type:
@@ -250,7 +324,7 @@ be synced by the fork.
 
 `git remote add upstream git://github.com/CSCI391/homework1.git`
 
-## Sync the fork<a id="sec-14-2"></a>
+## Sync the fork<a id="sec-15-2"></a>
 
 To see everyone's accepted changes to the master, you have to pull the upstream master. This 
 requires a *fetch* command.  Make sure that you have commited your changes.  Type:
@@ -270,4 +344,4 @@ You will want to save those to your github account as well.  So to finish, type:
 
 `git push origin master`
 
-# Thanks<a id="sec-15"></a>
+# Thanks<a id="sec-16"></a>
