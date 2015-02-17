@@ -134,21 +134,26 @@ up for GitHub.
 git config --global user.email "YOUR EMAIL ADDRESS"
 #+END_SRC
 
- 
 * Clone the repository from your github account to your local machine
 
-Now go back to your browser and open up the repo that you forked.  On the right side of 
-the page near the top, there is a box under settings.  In that box is the URL of your fork.
-Here is a picture.
+Now go back to your browser and open up the repo that you forked.  On
+the right side of the page near the top, there is a box under
+settings.  *BE CAREFUL* This is tricky. In that box is the URL of your
+fork.  Here is a picture.
 
 [[file:images/url.png]]
 
-Now that you know what you are looking for.  Copy it and clone it by typing:
+Make sure the protocol is set to https. The others require you to set
+up ssh keys which are worth a whole tutorial to themselves.  Now that
+you know what you are looking for.  Copy it to the clipboard by
+left-clicking the button. You clone it by typing:
 
-~git clone git@github.com:<your_github_username>/homework1.git~
+#+BEGIN_SRC sh exports: code
+git clone https@github.com:<your_github_username>/homework1.git
+#+END_SRC
 
 Now you have your own copy of the repo both on your machine and in your github account.
-You can look at any of the files. 
+In an text editor, you can look at any of the files. 
 * Master vs. branch
 You actually have a copy of the master on your machine.  When you add something
 for the first time, you should not add to the master you should make changes to 

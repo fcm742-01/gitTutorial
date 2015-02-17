@@ -243,18 +243,22 @@ up for GitHub.
 
 # Clone the repository from your github account to your local machine<a id="sec-8"></a>
 
-Now go back to your browser and open up the repo that you forked.  On the right side of 
-the page near the top, there is a box under settings.  In that box is the URL of your fork.
-Here is a picture.
+Now go back to your browser and open up the repo that you forked.  On
+the right side of the page near the top, there is a box under
+settings.  **BE CAREFUL** This is tricky. In that box is the URL of your
+fork.  Here is a picture.
 
 ![img](images/url.png)
 
-Now that you know what you are looking for.  Copy it and clone it by typing:
+Make sure the protocol is set to https. The others require you to set
+up ssh keys which are worth a whole tutorial to themselves.  Now that
+you know what you are looking for.  Copy it to the clipboard by
+left-clicking the button. You clone it by typing:
 
-`git clone git@github.com:<your_github_username>/homework1.git`
+    "code"body
 
 Now you have your own copy of the repo both on your machine and in your github account.
-You can look at any of the files. 
+In an text editor, you can look at any of the files. 
 
 # Master vs. branch<a id="sec-9"></a>
 
