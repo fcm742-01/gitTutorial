@@ -41,7 +41,7 @@
 <li><a href="#sec-15-2">15.2. Sync the fork</a></li>
 </ul>
 </li>
-<li><a href="#sec-16">16. Thanks</a></li>
+<li><a href="#sec-16">16. Pull request</a></li>
 </ul>
 </div>
 </div>
@@ -322,14 +322,11 @@ this by adding your image file to your branch by typing:
 
 You should save or commit your changes with a message.  Type the following:
 
-~git commit -m "added my homework."~
+    git commit -m "added my homework."
 
-or type:
-
-~git commit -m "added my homework and team."~
-
-To update your copy on github you have to push your changes.  This
-only did the merge on the local side.
+To update your copy on github you have to push your changes which are in 
+your firstName branch. Before I show you how to do that, let's make sure
+no one else has pushed changes that will cause a conflict with our changes.
 
 # See everyone's changes<a id="sec-15"></a>
 
@@ -338,33 +335,35 @@ only did the merge on the local side.
 Git does not automatically know where you want to pull from.
 To see where git is pulling from, type:
 
-`git remote -v`
+    git remote -v
 
 The "-v" is a common command line flag for verbose.  Because you 
 forked both the (fetch) where you pull from and where you push to
 (push) are the same. Now specify a new upstream repository that will
 be synced by the fork.
 
-`git remote add upstream git://github.com/CSCI391/homework1.git`
+    git remote add upstream git://github.com/CSCI391/homework1.git
 
 ## Sync the fork<a id="sec-15-2"></a>
 
-To see everyone's accepted changes to the master, you have to pull the upstream master. This 
-requires a *fetch* command.  Make sure that you have commited your changes.  Type:
+To see everyone's accepted changes to the master, you have to pull
+from the upstream master. This requires a *fetch* command.  Make sure
+that you have commited your changes.  Type:
 
-`git fetch upstream`
+    git fetch upstream
 
-you have now pulled the changes from my branch to your local machine. The next step is to 
-merge it into your master branch.
+You have now pulled the changes from my branch to your local machine
+and onto your `firstName` branch. The next step is to merge it into
+your `firstName` branch.
 
-`git checkout master`
-
-and to incorporate the changes on your local master, type:
-
-`git merge upstream/master`
+    git merge upstream/firstName
 
 You will want to save those to your github account as well.  So to finish, type:
 
-`git push origin master`
+    git push origin firstName
 
-# Thanks<a id="sec-16"></a>
+# Pull request<a id="sec-16"></a>
+
+If you refresh your github page you will see that the repository now
+has two braches.  Switch to the firstName branch and send a pull
+request.
