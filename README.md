@@ -57,7 +57,11 @@ a fork of this repository and create a directory whose name is
 `firstName_lastName`
 
 where your last name is separated from your first with an underscore
-"\_".  Once you have done this copy a picture of your face into the
+"\_".  For example, my name is Evan Misshula. My directory would be:
+
+`Evan Misshula`
+
+ Once you have done this copy a picture of your face into the
 directory.  Next you will send me a pull request from your master to
 add it to the repo. If you have a team that consists of more than the
 person who has uploaded the file, please send me a picture of everyone
@@ -74,9 +78,9 @@ repository in your github account.
 ![img](images/fork.png)
 
 You don't edit anything on github.  Github stores your backup.  In
-order to edit your repo you have to copy it to your machine.  This requires you
-to download git to your local machine.  There are several ways to do
-this.
+order to edit your repo you have to copy it to your machine.  This
+requires you to download the git program to your local machine.  You
+will then need to install it.  There are several ways to do this.
 
 # Mac and windows<a id="sec-3"></a>
 
@@ -264,6 +268,6 @@ and to incorporate the changes on your local master, type:
 
 You will want to save those to your github account as well.  So to finish, type:
 
-`git push origin <first_name>`
+`git push origin master`
 
 # Thanks<a id="sec-15"></a>
