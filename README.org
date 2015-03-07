@@ -1,9 +1,9 @@
-#+Title:homework1
+#+Title: Github Workshop Spring 2015
 #+Author: Evan Misshula
 
 * Introduction 
-This is the repo for homework 1, you have to add a directory and 
-upload a picture of your face.
+This is the repo for Github Workshop, Spring 2015, you have to add a
+directory and upload a picture of your face.
 
 This is the README file for homework #1.  Everyone is going to create
 a fork of this repository and create a directory whose name is
@@ -16,7 +16,7 @@ where your last name is separated from your first with an underscore
 ~Evan Misshula~
 
  Once you have done this copy a picture of your face into the
-directory.  Next you will send me a pull request from your master to
+directory.  Next you will send me a pull request from your branch to
 add it to the repo. If you have a team that consists of more than the
 person who has uploaded the file, please send me a picture of everyone
 on your team. Name the pictures with your individual names.
