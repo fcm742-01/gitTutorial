@@ -1,4 +1,4 @@
-#+Title: Github Workshop Spring 2015
+#+Title: Github Workshop CISSD Interns
 #+Author: Evan Misshula
 
 * Introduction 
