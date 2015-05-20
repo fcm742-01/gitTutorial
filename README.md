@@ -32,8 +32,8 @@
 <li><a href="#sec-9">9. Master vs. branch</a></li>
 <li><a href="#sec-10">10. Switch branches</a></li>
 <li><a href="#sec-11">11. Create a directory</a></li>
-<li><a href="#sec-12">12. Copy your homework into that directory</a></li>
-<li><a href="#sec-13">13. Add your homework to your branch</a></li>
+<li><a href="#sec-12">12. Copy your picture into that directory</a></li>
+<li><a href="#sec-13">13. Add your picture to your branch</a></li>
 <li><a href="#sec-14">14. Commit your local changes</a></li>
 <li><a href="#sec-15">15. See everyone's changes</a>
 <ul>
@@ -49,8 +49,8 @@
 
 # Introduction<a id="sec-1"></a>
 
-This is the repo for Github CISSD Workshop, Spring 2015, you have to add a
-directory and upload a picture of your face.
+This is the repo for Metropolital Library Council Workshop, May 20
+2015, you have to add a directory and upload a picture of your face.
 
 This is the README file for the repo.  Everyone is going to create
 a fork of this repository and create a directory whose name is
@@ -255,13 +255,13 @@ up ssh keys which are worth a whole tutorial to themselves.  Now that
 you know what you are looking for.  Copy it to the clipboard by
 left-clicking the button. You clone it by typing:
 
-    git clone https@github.com:<your_github_username>/homework1.git
+    git clone https@github.com:<your_github_username>/gitTutorial2.git
 
 Now you have your own copy of the repo both on your machine and in your github account.
-If you want to work with the files in the `homework1` directory, you should change into 
+If you want to work with the files in the `gitTutorial2` directory, you should change into 
 that directory. To do this you should type:
 
-    cd homework1
+    cd gitTutorial2
 
 In an text editor, you can look at any of the files. You can also list the files by 
 typing either `ls` or `dir` depending on your operating system.
@@ -292,7 +292,7 @@ type:
 
 # Create a directory<a id="sec-11"></a>
 
-If you listed the files in the homework1 directory, you should see
+If you listed the files in the gitTutorial2 directory, you should see
 that there is a directory called students. You should change
 directories into it by typing:
 
@@ -302,18 +302,18 @@ Create a directory with your first and last name from the command line:
 
 `mkdir <firstName_LastName>`
 
-# Copy your homework into that directory<a id="sec-12"></a>
+# Copy your picture into that directory<a id="sec-12"></a>
 
 You can use the command line or a gui to copy your picture into the directory you
 just created. 
 
-# Add your homework to your branch<a id="sec-13"></a>
+# Add your picture to your branch<a id="sec-13"></a>
 
 Make sure your image file is called your `firstName_lastName.jpg` or
 `firstName_lastName.png`.  For example, my photo would be
 `Evan_Misshula.jpg`.
 
-Next add your homework to your branch.  You will do
+Next add your picture to your branch.  You will do
 this by adding your image file to your branch by typing:
 
     git add firstName_lastName.jpg
@@ -322,7 +322,7 @@ this by adding your image file to your branch by typing:
 
 You should save or commit your changes with a message.  Type the following:
 
-    git commit -m "added my homework."
+    git commit -m "added my picture."
 
 To update your copy on github you have to push your changes which are in 
 your firstName branch. Before I show you how to do that, let's make sure
@@ -342,7 +342,7 @@ forked both the (fetch) where you pull from and where you push to
 (push) are the same. Now specify a new upstream repository that will
 be synced by the fork.
 
-    git remote add upstream git://github.com/CSCI391/homework1.git
+    git remote add upstream git://github.com/metroLibraryCouncil/gitTutorial2.git
 
 ## Sync the fork<a id="sec-15-2"></a>
 
