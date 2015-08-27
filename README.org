@@ -1,9 +1,10 @@
-#+Title: Github Workshop Code4lib Participants
+#+Title: Github Workshop Advanced Data Structures
 #+Author: Evan Misshula
 
 * Introduction 
-This is the repo for Metropolital Library Council Workshop, May 20
-2015, you have to add a directory and upload a picture of your face.
+This is the repo for Advanced Data Structures CSCI-373, sections 01
+and 02, Fall 2015, you have to add a directory and upload a picture of
+your face.
 
 This is the README file for the repo.  Everyone is going to create
 a fork of this repository and create a directory whose name is
@@ -180,8 +181,8 @@ The star means that we are still on the master branch.
 * Switch branches
 Now we are going to begin constructing the changes we want
 incorporated into the main project. In the last section we made a
-branch now we are going to start to change it.  To switch to your branch,
-type:
+branch now we are going to start to change it.  To switch to your
+branch, type:
 
 ~git checkout <first_name>~
 
@@ -192,7 +193,13 @@ that there is a directory called students. You should change
 directories into it by typing:
 
 #+BEGIN_SRC sh :exports code
-cd students
+cd students/sect01
+#+END_SRC
+
+or 
+
+#+BEGIN_SRC sh :exports code
+cd students/sect01
 #+END_SRC
 
 Create a directory with your first and last name from the command line:
@@ -201,8 +208,8 @@ Create a directory with your first and last name from the command line:
 
 * Copy your picture into that directory
 
-You can use the command line or a gui to copy your picture into the directory you
-just created. 
+You can use the command line or a gui to copy your picture into the
+directory you just created.
 
 * Add your picture to your branch
 
@@ -245,7 +252,7 @@ forked both the (fetch) where you pull from and where you push to
 be synced by the fork.
 
 #+BEGIN_SRC sh :exports code
-git remote add upstream git://github.com/metroLibraryCouncil/gitTutorial2.git
+git remote add upstream git://github.com/csci373-01-02/gitTutorial2.git
 #+END_SRC
 
 ** Sync the fork

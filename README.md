@@ -47,10 +47,11 @@
 </div>
 
 
-# Introduction<a id="sec-1"></a>
+# Introduction<a id="sec-1" name="sec-1"></a>
 
-This is the repo for Metropolital Library Council Workshop, May 20
-2015, you have to add a directory and upload a picture of your face.
+This is the repo for Advanced Data Structures CSCI-373, sections 01
+and 02, Fall 2015, you have to add a directory and upload a picture of
+your face.
 
 This is the README file for the repo.  Everyone is going to create
 a fork of this repository and create a directory whose name is
@@ -70,7 +71,7 @@ on your team. Name the pictures with your individual names.
 
 Read on for details.
 
-# Set up your github account<a id="sec-2"></a>
+# Set up your github account<a id="sec-2" name="sec-2"></a>
 
 Set up the github account.  The next thing you should do is 
 fork the repository.  That means that you create your own copy of the
@@ -83,9 +84,9 @@ order to edit your repo you have to copy it to your machine.  This
 requires you to download the git program to your local machine.  You
 will then need to install it.  There are several ways to do this.
 
-# Mac and windows<a id="sec-3"></a>
+# Mac and windows<a id="sec-3" name="sec-3"></a>
 
-## Mac<a id="sec-3-1"></a>
+## Mac<a id="sec-3-1" name="sec-3-1"></a>
 
 You just need to go this link:
 
@@ -93,7 +94,7 @@ You just need to go this link:
 
 Double click on the downloaded file and install in the usual way.
 
-## Windows<a id="sec-3-2"></a>
+## Windows<a id="sec-3-2" name="sec-3-2"></a>
 
 You just need to go this link:
 
@@ -101,16 +102,16 @@ You just need to go this link:
 
 Double click on the downloaded file and install in the usual way.
 
-# Configure git on your local machine [Don't skip]<a id="sec-4"></a>
+# Configure git on your local machine [Don't skip]<a id="sec-4" name="sec-4"></a>
 
-## On your machine open a terminal<a id="sec-4-1"></a>
+## On your machine open a terminal<a id="sec-4-1" name="sec-4-1"></a>
 
-### Mac<a id="sec-4-1-1"></a>
+### Mac<a id="sec-4-1-1" name="sec-4-1-1"></a>
 
 Left click on launchbad (the icon with the rocket on it).  In the
 search bar type terminal.  Left click the terminal and you are there.
 
-### Windows<a id="sec-4-1-2"></a>
+### Windows<a id="sec-4-1-2" name="sec-4-1-2"></a>
 
 1.  Windows 8 and 8.1
 
@@ -131,7 +132,7 @@ search bar type terminal.  Left click the terminal and you are there.
     
     <http://pcsupport.about.com/od/windows7/a/command-prompt-windows-7.htm>
 
-# Command line tutorial<a id="sec-5"></a>
+# Command line tutorial<a id="sec-5" name="sec-5"></a>
 
 The command line is the primary way to interact with your operating system.  We are only going
 to use a few commands but we have to use different commands depending whether you are running
@@ -204,9 +205,9 @@ Here are the commmands we will use:
 </tbody>
 </table>
 
-# The filesystem<a id="sec-6"></a>
+# The filesystem<a id="sec-6" name="sec-6"></a>
 
-## Mac OS X<a id="sec-6-1"></a>
+## Mac OS X<a id="sec-6-1" name="sec-6-1"></a>
 
 Your documents are in: 
 
@@ -222,13 +223,13 @@ To check where you are type:
 
 This returns the present working directory.
 
-## Windows<a id="sec-6-2"></a>
+## Windows<a id="sec-6-2" name="sec-6-2"></a>
 
 Your Documents are in C:\Users\\<your name>\Documents.  In the terminal type:
 
 `cd Documents`
 
-# Set global git variables<a id="sec-7"></a>
+# Set global git variables<a id="sec-7" name="sec-7"></a>
 
 Tell Git your name so your commits will be properly labeled. Type
 everything after the $ here:
@@ -241,7 +242,7 @@ up for GitHub.
 
     git config --global user.email "YOUR EMAIL ADDRESS"
 
-# Clone the repository from your github account to your local machine<a id="sec-8"></a>
+# Clone the repository from your github account to your local machine<a id="sec-8" name="sec-8"></a>
 
 Now go back to your browser and open up the repo that you forked.  On
 the right side of the page near the top, there is a box under
@@ -266,7 +267,7 @@ that directory. To do this you should type:
 In an text editor, you can look at any of the files. You can also list the files by 
 typing either `ls` or `dir` depending on your operating system.
 
-# Master vs. branch<a id="sec-9"></a>
+# Master vs. branch<a id="sec-9" name="sec-9"></a>
 
 You actually have a copy of the master on your machine.  When you add something
 for the first time, you should not add to the master you should make changes to 
@@ -281,33 +282,37 @@ We can see all of the branches by typing:
 
 The star means that we are still on the master branch.
 
-# Switch branches<a id="sec-10"></a>
+# Switch branches<a id="sec-10" name="sec-10"></a>
 
 Now we are going to begin constructing the changes we want
 incorporated into the main project. In the last section we made a
-branch now we are going to start to change it.  To switch to your branch,
-type:
+branch now we are going to start to change it.  To switch to your
+branch, type:
 
 `git checkout <first_name>`
 
-# Create a directory<a id="sec-11"></a>
+# Create a directory<a id="sec-11" name="sec-11"></a>
 
 If you listed the files in the gitTutorial2 directory, you should see
 that there is a directory called students. You should change
 directories into it by typing:
 
-    cd students
+    cd students/sect01
+
+or 
+
+    cd students/sect01
 
 Create a directory with your first and last name from the command line:
 
 `mkdir <firstName_LastName>`
 
-# Copy your picture into that directory<a id="sec-12"></a>
+# Copy your picture into that directory<a id="sec-12" name="sec-12"></a>
 
-You can use the command line or a gui to copy your picture into the directory you
-just created. 
+You can use the command line or a gui to copy your picture into the
+directory you just created.
 
-# Add your picture to your branch<a id="sec-13"></a>
+# Add your picture to your branch<a id="sec-13" name="sec-13"></a>
 
 Make sure your image file is called your `firstName_lastName.jpg` or
 `firstName_lastName.png`.  For example, my photo would be
@@ -318,7 +323,7 @@ this by adding your image file to your branch by typing:
 
     git add firstName_lastName.jpg
 
-# Commit your local changes<a id="sec-14"></a>
+# Commit your local changes<a id="sec-14" name="sec-14"></a>
 
 You should save or commit your changes with a message.  Type the following:
 
@@ -328,9 +333,9 @@ To update your copy on github you have to push your changes which are in
 your firstName branch. Before I show you how to do that, let's make sure
 no one else has pushed changes that will cause a conflict with our changes.
 
-# See everyone's changes<a id="sec-15"></a>
+# See everyone's changes<a id="sec-15" name="sec-15"></a>
 
-## Configure an upstream master<a id="sec-15-1"></a>
+## Configure an upstream master<a id="sec-15-1" name="sec-15-1"></a>
 
 Git does not automatically know where you want to pull from.
 To see where git is pulling from, type:
@@ -342,9 +347,9 @@ forked both the (fetch) where you pull from and where you push to
 (push) are the same. Now specify a new upstream repository that will
 be synced by the fork.
 
-    git remote add upstream git://github.com/metroLibraryCouncil/gitTutorial2.git
+    git remote add upstream git://github.com/csci373-01-02/gitTutorial2.git
 
-## Sync the fork<a id="sec-15-2"></a>
+## Sync the fork<a id="sec-15-2" name="sec-15-2"></a>
 
 To see everyone's accepted changes to the master, you have to pull
 from the upstream master. This requires a *fetch* command.  Make sure
@@ -362,7 +367,7 @@ You will want to save those to your github account as well.  So to finish, type:
 
     git push origin firstName
 
-# Pull request<a id="sec-16"></a>
+# Pull request<a id="sec-16" name="sec-16"></a>
 
 If you refresh your github page you will see that the repository now
 has two braches.  Switch to the firstName branch and send a pull
