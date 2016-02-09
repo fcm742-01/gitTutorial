@@ -2,25 +2,28 @@
 #+Author: Evan Misshula
 
 * Introduction 
-This is the repo for Advanced Data Structures CSCI-373, sections 01
-and 02, Fall 2015, you have to add a directory and upload a picture of
-your face.
+This is the repo for FCM-742, sections 01, Spring 2016, you have to
+add a directory and upload a picture of your face.
 
 This is the README file for the repo.  Everyone is going to create
 a fork of this repository and create a directory whose name is
 
-~firstName_lastName~
+#+BEGIN_SRC sh :results value :exports code
+mkdir firstName_lastName
+#+END_SRC
+
 
 where your last name is separated from your first with an underscore
 "_".  For example, my name is Evan Misshula. My directory would be:
 
-~Evan Misshula~
+#+BEGIN_SRC sh :results value :exports code
+mkdir Evan Misshula
+#+END_SRC
+
 
  Once you have done this copy a picture of your face into the
 directory.  Next you will send me a pull request from your branch to
-add it to the repo. If you have a team that consists of more than the
-person who has uploaded the file, please send me a picture of everyone
-on your team. Name the pictures with your individual names.
+add it to the repo. 
 
 Read on for details.
 
@@ -224,7 +227,6 @@ this by adding your image file to your branch by typing:
 git add firstName_lastName.jpg
 #+END_SRC
 
-
 * Commit your local changes
 
 You should save or commit your changes with a message.  Type the following:
@@ -252,7 +254,7 @@ forked both the (fetch) where you pull from and where you push to
 be synced by the fork.
 
 #+BEGIN_SRC sh :exports code
-git remote add upstream git://github.com/csci373-01-02/gitTutorial2.git
+git remote add upstream git://github.com/fcm742-01/gitTutorial2.git
 #+END_SRC
 
 ** Sync the fork
