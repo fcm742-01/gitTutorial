@@ -153,15 +153,15 @@ you know what you are looking for.  Copy it to the clipboard by
 left-clicking the button. You clone it by typing:
 
 #+BEGIN_SRC sh :exports code
-git clone https@github.com:<your_github_username>/gitTutorial2.git
+git clone https@github.com:<your_github_username>/gitTutorial.git
 #+END_SRC
 
 Now you have your own copy of the repo both on your machine and in your github account.
-If you want to work with the files in the ~gitTutorial2~ directory, you should change into 
+If you want to work with the files in the ~gitTutorial~ directory, you should change into 
 that directory. To do this you should type:
 
 #+BEGIN_SRC sh :exports code
-cd gitTutorial2
+cd gitTutorial
 #+END_SRC
 
 In an text editor, you can look at any of the files. You can also list the files by 
@@ -191,7 +191,7 @@ branch, type:
 
 * Create a directory
 
-If you listed the files in the gitTutorial2 directory, you should see
+If you listed the files in the gitTutorial directory, you should see
 that there is a directory called students. You should change
 directories into it by typing:
 
@@ -254,7 +254,7 @@ forked both the (fetch) where you pull from and where you push to
 be synced by the fork.
 
 #+BEGIN_SRC sh :exports code
-git remote add upstream git://github.com/fcm742-01/gitTutorial2.git
+git remote add upstream git://github.com/fcm742-01/gitTutorial.git
 #+END_SRC
 
 ** Sync the fork
