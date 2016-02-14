@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>homework1</title>
+<meta name="author" content="(Evan Misshula)"/>
+
+<link rel="stylesheet" href="./reveal.js/css/reveal.min.css"/>
+<link rel="stylesheet" href="./reveal.js/css/theme/default.css" id="theme"/>
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = './reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section>
+<h1>homework1</h1>
+<h2>Evan Misshula</h2>
+<h2><a href="mailto:emisshula@DIGFELLOW1">emisshula@DIGFELLOW1</a></h2>
+<h2></h2></section>
+<section>
+<h2>Table of Contents</h2><ul>
+<li>
+<a href="#sec-1">Introduction</a>
+</li>
+<li>
+<a href="#sec-2">Set up your github account</a>
+</li>
+<li>
+<a href="#sec-3">Mac and windows</a>
+<ul>
+<li>
+<a href="#sec-3-1">Mac</a>
+</li>
+<li>
+<a href="#sec-3-2">Windows</a>
+</li>
+</ul>
+<li>
+<a href="#sec-4">Configure git on your local machine [Don't skip]</a>
+<ul>
+<li>
+<a href="#sec-4-1">On your machine open a terminal</a>
+<ul>
+<li>
+<a href="#sec-4-1-1">Mac</a>
+</li>
+<li>
+<a href="#sec-4-1-2">Windows</a>
+</li>
+</ul>
+<li>
+<a href="#sec-5">Decide where to place your files</a>
+<ul>
+<li>
+<a href="#sec-5-1">Mac OS X</a>
+</li>
+<li>
+<a href="#sec-5-2">Windows</a>
+</li>
+</ul>
+<li>
+<a href="#sec-6">Set global git variables</a>
+</li>
+<li>
+<a href="#sec-7">Clone the repository from your github account to your local machine</a>
+</li>
+<li>
+<a href="#sec-8">Master vs. branch</a>
+</li>
+<li>
+<a href="#sec-9">Switch branches</a>
+</li>
+<li>
+<a href="#sec-10">Create a directory</a>
+</li>
+<li>
+<a href="#sec-11">Copy your homework into that directory</a>
+</li>
+<li>
+<a href="#sec-12">Add your homework to your branch</a>
+</li>
+<li>
+<a href="#sec-13">Commit your local changes</a>
+</li>
+<li>
+<a href="#sec-14">See everyone's changes</a>
+<ul>
+<li>
+<a href="#sec-14-1">Configure an upstream master</a>
+</li>
+<li>
+<a href="#sec-14-2">Sync the fork</a>
+</li>
+</ul>
+<li>
+<a href="#sec-15">Thanks</a>
+</li>
+</ul>
+</section>
+
+<section>
+<section id="sec-1" >
+
+<h2>Introduction</h2>
+<p>
+This is the repo for homework 1, you have to add a directory and 
+upload a picture of your face.
+</p>
+
+<p>
+This is the README file for homework #1.  Everyone is going to create
+a fork of this repository and create a directory whose name is
+<b>firstName\<sub>lastName</sub></b> where your last name is separated from your first
+with an underscore "_".  Once you have done this copy the tab
+separated values file (tsv) with your data to the file and send me a
+pull request from your master to add it to the repo. If you have a
+team that consists of more than the person who has uploaded the file,
+please include a second file called team.csv with the names of your
+team.
+</p>
+
+<p>
+Read on for details.
+</p>
+</section>
+
+</section>
+<section>
+<section id="sec-2" >
+
+<h2>Set up your github account</h2>
+<p>
+Set up the github account.  The next thing you should do is 
+fork the repository.  That means that you create your own copy of the
+repository in your github account.
+</p>
+
+<img src="images/fork.png" alt="fork.png" />
+
+<p>
+You don't edit anything on github.  Github stores your backup.  In
+order to edit your repo you have to copy it to your machine.  This requires you
+to download git to your local machine.  There are several ways to do
+this.
+</p>
+</section>
+
+</section>
+<section>
+<section id="sec-3" >
+
+<h2>Mac and windows</h2>
+</section>
+<section id="sec-3-1" >
+
+<h3>Mac</h3>
+<p>
+You just need to go this link:
+</p>
+
+<p>
+<a href="http://git-scm.com/download/mac">http://git-scm.com/download/mac</a>
+</p>
+
+<p>
+Double click on the downloaded file and install in the usual way.
+</p>
+</section>
+<section id="sec-3-2" >
+
+<h3>Windows</h3>
+<p>
+You just need to go this link:
+</p>
+
+<p>
+<a href="http://git-scm.com/download/win">http://git-scm.com/download/win</a>
+</p>
+
+<p>
+Double click on the downloaded file and install in the usual way.
+</p>
+</section>
+
+</section>
+<section>
+<section id="sec-4" >
+
+<h2>Configure git on your local machine [Don't skip]</h2>
+</section>
+<section id="sec-4-1" >
+
+<h3>On your machine open a terminal</h3>
+</section>
+<section id="sec-4-1-1" >
+
+<h4>Mac</h4>
+<p>
+Left click on launchbad (the icon with the rocket on it).  In the
+search bar type terminal.  Left click the terminal and you are there.
+</p>
+</section>
+<section id="sec-4-1-2" >
+
+<h4>Windows</h4>
+<ol class="org-ol"><li class="fragment none">Windows 8 and 8.1<br/><p>
+Right click on the Start button. This opens the power user menu.
+There is a shortcut for the terminal on that. Left click on it and you
+are there. Here is a larger article on this:
+</p>
+
+<p>
+<a href="http://pcsupport.about.com/od/windows-8/a/command-prompt-windows-8.htm">http://pcsupport.about.com/od/windows-8/a/command-prompt-windows-8.htm</a>
+</p>
+</li>
+
+<li class="fragment none">Windows 7<br/><p>
+Click on the Start button. In the search box, type the following:
+</p>
+
+<p>
+<code>command</code> 
+</p>
+
+<p>
+Click on Command Prompt in the search results listing. Here is a
+larger reference.
+</p>
+
+<p>
+<a href="http://pcsupport.about.com/od/windows7/a/command-prompt-windows-7.htm">http://pcsupport.about.com/od/windows7/a/command-prompt-windows-7.htm</a>
+</p>
+</li></ol>
+</section>
+
+</section>
+<section>
+<section id="sec-5" >
+
+<h2>Decide where to place your files</h2>
+</section>
+<section id="sec-5-1" >
+
+<h3>Mac OS X</h3>
+<p>
+You documents are in /Users/&lt;your name&gt;/Documents.  In the terminal type:
+</p>
+
+<p>
+<code>cd Documents</code>
+</p>
+
+<p>
+To check where you are type:
+</p>
+
+<p>
+<code>pwd</code>
+</p>
+
+<p>
+This returns the present working directory.
+</p>
+</section>
+<section id="sec-5-2" >
+
+<h3>Windows</h3>
+<p>
+Your Documents are in C:\Users\&lt;your name&gt;\Documents.  In the terminal type:
+</p>
+
+<p>
+<code>cd Documents</code>
+</p>
+</section>
+
+</section>
+<section>
+<section id="sec-6" >
+
+<h2>Set global git variables</h2>
+<p>
+Tell Git your name so your commits will be properly labeled. Type
+everything after the $ here:
+</p>
+
+
+<p>
+~git config &#x2013;global user.name "Your Name"~
+</p>
+
+
+<p>
+Tell Git the email address that will be associated with your Git
+commits. The email you specify should be the same one you used to sign
+up for GitHub.
+</p>
+
+<p>
+~git config &#x2013;global user.email "YOUR EMAIL ADDRESS"~
+</p>
+</section>
+
+</section>
+<section>
+<section id="sec-7" >
+
+<h2>Clone the repository from your github account to your local machine</h2>
+<p>
+Now go back to your browser and open up the repo that you forked.  On the right side of 
+the page near the top, there is a box under settings.  In that box is the URL of your fork.
+Here is a picture.
+</p>
+
+<img src="images/url.png" alt="url.png" />
+
+<p>
+Now that you know what you are looking for.  Copy it and clone it by typing:
+</p>
+
+<p>
+<code>git clone git@github.com:&lt;your_github_username&gt;/homework1.git</code>
+</p>
+
+<p>
+Now you have your own copy of the repo both on your machine and in your github account.
+You can look at any of the files. 
+</p>
+</section>
+</section>
+<section>
+<section id="sec-8" >
+
+<h2>Master vs. branch</h2>
+<p>
+You actually have a copy of the master on your machine.  When you add something
+for the first time, you should not add to the master you should make changes to 
+your own branch. Usually the branch name is the topic.  In this case use your
+first name.  Type:
+</p>
+
+<p>
+<code>git branch &lt;first_name&gt;</code>
+</p>
+
+<p>
+We can see all of the branches by typing:
+</p>
+
+<p>
+<code>git branch</code>
+</p>
+
+<p>
+The star means that we are still on the master branch.
+</p>
+</section>
+
+</section>
+<section>
+<section id="sec-9" >
+
+<h2>Switch branches</h2>
+<p>
+To switch branches type:
+</p>
+
+<p>
+<code>git checkout &lt;first_name&gt;</code>
+</p>
+</section>
+
+</section>
+<section>
+<section id="sec-10" >
+
+<h2>Create a directory</h2>
+<p>
+Create a directory with your first and last name from the command line:
+</p>
+
+<p>
+<code>mkdir &lt;firstName_LastName&gt;</code>
+</p>
+</section>
+
+</section>
+<section>
+<section id="sec-11" >
+
+<h2>Copy your homework into that directory</h2>
+<p>
+You can use the command line or a gui to copy your picture into the directory you
+just created. 
+</p>
+</section>
+
+</section>
+<section>
+<section id="sec-12" >
+
+<h2>Add your homework to your branch</h2>
+<p>
+To add your homework to your branch.  You will do this by adding all files in the directory
+to your branch by typing:
+</p>
+
+<p>
+<code>git add .</code>
+</p>
+</section>
+
+</section>
+<section>
+<section id="sec-13" >
+
+<h2>Commit your local changes</h2>
+<p>
+You should save or commit your changes with a message.  Type the following:
+</p>
+
+<p>
+~git commit -m "added my homework."~
+</p>
+
+<p>
+or type:
+</p>
+
+<p>
+~git commit -m "added my homework and team."~
+</p>
+
+<p>
+To update your copy on github you have to push your changes.  This
+only did the merge on the local side.
+</p>
+</section>
+</section>
+<section>
+<section id="sec-14" >
+
+<h2>See everyone's changes</h2>
+</section>
+<section id="sec-14-1" >
+
+<h3>Configure an upstream master</h3>
+<p>
+Git does not automatically know where you want to pull from.
+To see where git is pulling from, type:
+</p>
+
+<p>
+<code>git remote -v</code>
+</p>
+
+<p>
+The "-v" is a common command line flag for verbose.  Because you 
+forked both the (fetch) where you pull from and where you push to
+(push) are the same. Now specify a new upstream repository that will
+be synced by the fork.
+</p>
+
+<p>
+<code>git remote add upstream git://github.com/CSCI391/homework1.git</code>
+</p>
+
+</section>
+<section id="sec-14-2" >
+
+<h3>Sync the fork</h3>
+<p>
+To see everyone's accepted changes to the master, you have to pull the upstream master. This 
+requires a <i>fetch</i> command.  Make sure that you have commited your changes.  Type:
+</p>
+
+<p>
+<code>git fetch upstream</code>
+</p>
+
+<p>
+you have now pulled the changes from my branch to your local machine. The next step is to 
+merge it into your master branch.
+</p>
+
+<p>
+<code>git checkout master</code>
+</p>
+
+<p>
+and to incorporate the changes on your local master, type:
+</p>
+
+<p>
+<code>git merge upstream/master</code>
+</p>
+
+<p>
+You will want to save those to your github account as well.  So to finish, type:
+</p>
+
+<p>
+<code>git push origin master</code>
+</p>
+</section>
+
+</section>
+<section>
+<section id="sec-15" >
+
+<h2>Thanks</h2>
+</section>
+</section>
+</div>
+</div>
+
+<script src="./reveal.js/lib/js/head.min.js"></script>
+<script src="./reveal.js/js/reveal.min.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: true,
+rollingLinks: false,
+keyboard: true,
+overview: true,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: './reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: './reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+ { src: './reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: './reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+]
+});
+</script>
+</body>
+</html>
