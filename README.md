@@ -253,13 +253,13 @@ up ssh keys which are worth a whole tutorial to themselves.  Now that
 you know what you are looking for.  Copy it to the clipboard by
 left-clicking the button. You clone it by typing:
 
-    git clone https@github.com:<your_github_username>/gitTutorial2.git
+    git clone https@github.com:<your_github_username>/gitTutorial.git
 
 Now you have your own copy of the repo both on your machine and in your github account.
-If you want to work with the files in the `gitTutorial2` directory, you should change into 
+If you want to work with the files in the `gitTutorial` directory, you should change into 
 that directory. To do this you should type:
 
-    cd gitTutorial2
+    cd gitTutorial
 
 In an text editor, you can look at any of the files. You can also list the files by 
 typing either `ls` or `dir` depending on your operating system.
@@ -290,7 +290,7 @@ branch, type:
 
 # Create a directory<a id="orgheadline20"></a>
 
-If you listed the files in the gitTutorial2 directory, you should see
+If you listed the files in the gitTutorial directory, you should see
 that there is a directory called students. You should change
 directories into it by typing:
 
@@ -344,7 +344,7 @@ forked both the (fetch) where you pull from and where you push to
 (push) are the same. Now specify a new upstream repository that will
 be synced by the fork.
 
-    git remote add upstream git://github.com/fcm742-01/gitTutorial2.git
+    git remote add upstream git://github.com/fcm742-01/gitTutorial.git
 
 ## Sync the fork<a id="orgheadline25"></a>
 
