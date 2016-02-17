@@ -253,7 +253,7 @@ up ssh keys which are worth a whole tutorial to themselves.  Now that
 you know what you are looking for.  Copy it to the clipboard by
 left-clicking the button. You clone it by typing:
 
-    git clone https@github.com:<your_github_username>/gitTutorial.git
+    git clone https://github.com:<your_github_username>/gitTutorial.git
 
 Now you have your own copy of the repo both on your machine and in your github account.
 If you want to work with the files in the `gitTutorial` directory, you should change into 
@@ -358,7 +358,7 @@ You have now pulled the changes from my branch to your local machine
 and onto your `firstName` branch. The next step is to merge it into
 your `firstName` branch.
 
-    git merge upstream/firstName
+    git merge upstream/master firstname
 
 You will want to save those to your github account as well.  So to finish, type:
 
