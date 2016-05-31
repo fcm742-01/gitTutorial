@@ -49,7 +49,7 @@
 
 # Introduction<a id="orgheadline1"></a>
 
-This is the repo for FCM-742, sections 01, Spring 2016, you have to
+This is the repo for Tech Talent Pipeline Summer 2016, you have to
 add a directory and upload a picture of your face.
 
 This is the README file for the repo.  Everyone is going to create
@@ -60,7 +60,7 @@ a fork of this repository and create a directory whose name is
 where your last name is separated from your first with an underscore
 "\_".  For example, my name is Evan Misshula. My directory would be:
 
-    mkdir Evan Misshula
+    mkdir Evan-Misshula
 
  Once you have done this copy a picture of your face into the
 directory.  Next you will send me a pull request from your branch to
@@ -208,15 +208,15 @@ Here are the commmands we will use:
 
 Your documents are in: 
 
-`/Users/<your name>/Documents`  
+    /Users/<your name>/Documents
 
 In the terminal type:
 
-`cd Documents`
+    cd Documents
 
 To check where you are type:
 
-`pwd`
+    pwd
 
 This returns the present working directory.
 
@@ -224,7 +224,7 @@ This returns the present working directory.
 
 Your Documents are in C:\Users\\<your name>\Documents.  In the terminal type:
 
-`cd Documents`
+    cd Documents
 
 # Set global git variables<a id="orgheadline16"></a>
 
@@ -271,11 +271,11 @@ for the first time, you should not add to the master you should make changes to
 your own branch. Usually the branch name is the topic.  In this case use your
 first name.  Type:
 
-`git branch <first_name>`
+    git branch <first_name>
 
 We can see all of the branches by typing:
 
-`git branch`
+    git branch
 
 The star means that we are still on the master branch.
 
@@ -286,7 +286,7 @@ incorporated into the main project. In the last section we made a
 branch now we are going to start to change it.  To switch to your
 branch, type:
 
-`git checkout <first_name>`
+    git checkout <first_name>
 
 # Create a directory<a id="orgheadline20"></a>
 
@@ -302,7 +302,7 @@ or
 
 Create a directory with your first and last name from the command line:
 
-`mkdir <firstName_LastName>`
+    mkdir <firstName_LastName>
 
 # Copy your picture into that directory<a id="orgheadline21"></a>
 
