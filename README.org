@@ -1,8 +1,8 @@
-#+Title: Github Workshop Advanced Data Structures
+#+Title: Github Workshop Tech Talent Pipeline Residency @ Queens College
 #+Author: Evan Misshula
 
 * Introduction 
-This is the repo for FCM-742, sections 01, Spring 2016, you have to
+This is the repo for Tech Talent Pipeline Summer 2016, you have to
 add a directory and upload a picture of your face.
 
 This is the README file for the repo.  Everyone is going to create
@@ -17,7 +17,7 @@ where your last name is separated from your first with an underscore
 "_".  For example, my name is Evan Misshula. My directory would be:
 
 #+BEGIN_SRC sh :results value :exports code
-mkdir Evan Misshula
+mkdir Evan-Misshula
 #+END_SRC
 
 
@@ -102,23 +102,31 @@ Here are the commmands we will use:
 ** Mac OS X
 
 Your documents are in: 
+#+BEGIN_SRC sh :exports code
+/Users/<your name>/Documents
+#+END_SRC
 
-~/Users/<your name>/Documents~  
 
 In the terminal type:
+#+BEGIN_SRC sh :exports code
+cd Documents
+#+END_SRC
 
-~cd Documents~
 
 To check where you are type:
 
-~pwd~
+#+BEGIN_SRC sh :exports
+pwd
+#+END_SRC
 
 This returns the present working directory.
 ** Windows
 
 Your Documents are in C:\Users\<your name>\Documents.  In the terminal type:
+#+BEGIN_SRC sh :exports code
+cd Documents
+#+END_SRC
 
-~cd Documents~
 
 * Set global git variables
 Tell Git your name so your commits will be properly labeled. Type
@@ -173,11 +181,15 @@ for the first time, you should not add to the master you should make changes to
 your own branch. Usually the branch name is the topic.  In this case use your
 first name.  Type:
 
-~git branch <first_name>~
+#+BEGIN_SRC sh :exports code
+git branch <first_name>
+#+END_SRC
 
 We can see all of the branches by typing:
 
-~git branch~
+#+BEGIN_SRC sh :exports code
+git branch
+#+END_SRC
 
 The star means that we are still on the master branch.
 
@@ -186,8 +198,9 @@ Now we are going to begin constructing the changes we want
 incorporated into the main project. In the last section we made a
 branch now we are going to start to change it.  To switch to your
 branch, type:
-
-~git checkout <first_name>~
+#+BEGIN_SRC :exports code
+git checkout <first_name>
+#+END_SRC
 
 * Create a directory
 
@@ -207,7 +220,9 @@ cd students/sect01
 
 Create a directory with your first and last name from the command line:
 
-~mkdir <firstName_LastName>~
+#+BEGIN_SRC sh :exports code
+mkdir <firstName_LastName>
+#+END_SRC
 
 * Copy your picture into that directory
 
